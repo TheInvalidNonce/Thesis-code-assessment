@@ -434,13 +434,12 @@ nav a:hover,
     }
 
     body > div.main-container > div > article.right {
-        width: 420px;
+        /* width: 100%; */
     }
 
     body > div.main-container > div > article.right > form {
         height: 260px;
-        width: 420px;
-        /* margin-left: 6px; */
+        width: fit-content;
     }
 
     .right {
@@ -548,6 +547,10 @@ nav a:hover,
     #page-nav {
         padding-right: 5px;
     }
+
+    .footer-container {
+        padding-top: 340px;
+    }
 }
 
 @media screen and (max-width: 420 px) and (min-width: 320px) {
@@ -557,8 +560,15 @@ nav a:hover,
 
     .right {
         padding: 6px;
+        width: 100%;
+    }
+
+    .form input {
+        width: 100%;
     }
 }
+
+
 
 
 /* ==========================================================================
